@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class FixThisCode {
+public class FixThisCode1 {
 
         private static FileWriter getFileWriter(String filePath) {
             try {
