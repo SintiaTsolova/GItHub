@@ -2,25 +2,6 @@ package homework.Person;
 
 public class personMethod {
 
-    public static void main(String[] args) {
-
-        sayHello("Emiliana", "Bulgarian");
-        sayHello("Juan", "Italian");
-        sayHello("Luke", "English");
-
-       /* celebrateEaster("Emiliana", "Catholic");
-       celebrateEaster("Juan", "Islam");
-       celebrateEaster("Luke", "Orthodox");*/
-
-        isAdult("Bulgaria", 18);
-        isAdult("Italy", 18);
-        isAdult("USA", 21);
-
-        canTakeLoan("Actor");
-        canTakeLoan("Instructor");
-        canTakeLoan("Mechanic");
-    }
-
     public static String sayHello(String firstName, String language) {
         switch (language.toLowerCase()) {
             case "bulgarian":
